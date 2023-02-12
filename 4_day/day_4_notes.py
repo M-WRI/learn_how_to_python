@@ -13,3 +13,5 @@ print(random_float)
 random_float_zero_five = random.uniform(0, 5) # Random Float in range
 print(random_float_zero_five)
 
+# Lists
+some_list = ["some", "list"] # The array in JS/TS is called list in Python

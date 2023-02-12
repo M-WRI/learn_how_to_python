@@ -6,3 +6,8 @@ for item in list_one:
     print(f"{item} this is a frase")
 
 # For Loops with range function
+total_count = 0
+for number in range(1, 101):
+    total_count += number
+
+print(total_count, "<--- Total count")

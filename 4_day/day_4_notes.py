@@ -15,3 +15,10 @@ print(random_float_zero_five)
 
 # Lists
 some_list = ["some", "list"] # The array in JS/TS is called list in Python
+
+# Nested Lists
+list_one = ["some", "entry"]
+list_two = ["another", "entry"]
+
+two_lists_in_one = [list_one, list_two]
+print(two_lists_in_one) # [[x, y], [a, b]]
